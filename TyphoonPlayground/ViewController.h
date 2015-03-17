@@ -12,5 +12,5 @@
 
 @interface ViewController : UIViewController
 
-
+@property(nonatomic, assign) BOOL animateModalTransition;
 @end

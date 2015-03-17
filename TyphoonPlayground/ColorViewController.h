@@ -10,5 +10,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ColorViewController : UIViewController
+@property(nonatomic, assign) BOOL animateModalTransition;
 @property(nonatomic, copy) UIColor *color;
 @end

@@ -8,6 +8,8 @@
 #import "ViewController.h"
 #import "InjectedObject.h"
 #import "NotActivatedAssembly.h"
+#import "TyphoonDefinition+Infrastructure.h"
+#import "TyphoonConfigPostProcessor.h"
 
 
 @implementation ApplicationAssembly {
@@ -52,8 +54,22 @@
                                                   [initializer injectParameterWith:nil];
                                                   [initializer injectParameterWith:[NSBundle mainBundle]];
                                               }];
+                              [definition injectProperty:@selector(animateModalTransition) with:TyphoonConfig(@"animateModalTransition")];
                           }];
 }
+
+// Both of them works
+//- (id)configurer {
+//    return [TyphoonDefinition configDefinitionWithName:@"Config.json"];
+//}
+
+- (id)configurer {
+    return [TyphoonDefinition configDefinitionWithName:@"Config.plist"];
+}
+
+//- (id)config {
+//    return [TyphoonDefinition configDefinitionWithName:@"Config.json"];
+//}
 
 - (InjectedObject *)object {
     return [TyphoonDefinition withClass:[InjectedObject class]];

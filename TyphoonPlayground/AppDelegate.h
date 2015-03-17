@@ -17,7 +17,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property(nonatomic, strong) InjectedObject *object;
+@property(nonatomic, weak) InjectedObject *object;
 
 // The property or method parameter can be of type TyphoonComponentFactory
 // The property can be any one of your TyphoonAssembly sub-classes (or if you wish, a protocol that represents these).

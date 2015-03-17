@@ -6,6 +6,7 @@
 #import "NotActivatedAssembly.h"
 #import "ColorViewController.h"
 #import "InjectedObject.h"
+#import "TyphoonConfigPostProcessor.h"
 
 
 @implementation NotActivatedAssembly {
@@ -18,6 +19,10 @@
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(color)
                                                     with:color];
+                              // For step #4 uncomment
+                              // This will be added by post processor
+//                              [definition injectProperty:@selector(animateModalTransition)
+//                                                    with:TyphoonConfig(@"animateModalTransition")];
                           }];
 }
 

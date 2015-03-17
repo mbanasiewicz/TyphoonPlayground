@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34FAD6A91AB8A76400FC751F /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34FAD6A81AB8A76400FC751F /* Config.plist */; };
 		85926AF2031913AF890360C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE13755E305F8F5A5B8DC29F /* libPods.a */; };
 		9B24D0A1D398EFDEDA991E7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D6F2103991DB00D927DB /* Images.xcassets */; };
 		9B24D195C9D0A2CE40523A35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D58D3CACCFD385336D52 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		9B24D7A4E48E71B541C30530 /* InjectedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D1EFE958AE5239896A97 /* InjectedObject.m */; };
 		9B24DAA6C99C7756CF578FCD /* TyphoonPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */; };
 		9B24DAF887F10E34C8366DA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D1B97D1E5F77A7D99453 /* LaunchScreen.xib */; };
+		9B24DC2EC53FDB4ED1839C58 /* Config.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B24DEFC8E3C09B2D252BEF9 /* Config.json */; };
 		9B24DE7BA0738AC3749376CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D02BA8E601B7B3142EDC /* AppDelegate.m */; };
 		9B24DFF40FE56979AD9ABC25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DE78B9F89EB234BC7A4D /* main.m */; };
 /* End PBXBuildFile section */
@@ -31,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34FAD6A81AB8A76400FC751F /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Config.plist; path = ../Config.plist; sourceTree = "<group>"; };
 		7BC0A8579EF3462C7D4BB3FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		98CCACF6209047ECE1C085D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9B24D02BA8E601B7B3142EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		9B24DC0BCD495333A252EE4A /* InjectedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectedObject.h; sourceTree = "<group>"; };
 		9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
 		9B24DE78B9F89EB234BC7A4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B24DEFC8E3C09B2D252BEF9 /* Config.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = Config.json; sourceTree = "<group>"; };
 		BE13755E305F8F5A5B8DC29F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,10 +90,12 @@
 		9B24D0102536D3AAF4D7940C /* Assemblies */ = {
 			isa = PBXGroup;
 			children = (
+				34FAD6A81AB8A76400FC751F /* Config.plist */,
 				9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */,
 				9B24D75A019FF41361A8C30E /* ApplicationAssembly.h */,
 				9B24D84B0C815DBCA5016B9E /* NotActivatedAssembly.m */,
 				9B24D55D3F81939E678C73C6 /* NotActivatedAssembly.h */,
+				9B24DEFC8E3C09B2D252BEF9 /* Config.json */,
 			);
 			path = Assemblies;
 			sourceTree = "<group>";
@@ -246,8 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FAD6A91AB8A76400FC751F /* Config.plist in Resources */,
 				9B24D0A1D398EFDEDA991E7A /* Images.xcassets in Resources */,
 				9B24DAF887F10E34C8366DA1 /* LaunchScreen.xib in Resources */,
+				9B24DC2EC53FDB4ED1839C58 /* Config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,10 +7,12 @@
 //
 
 
+#import <Typhoon/TyphoonConfigPostProcessor.h>
 #import "ViewController.h"
 #import "NotActivatedAssembly.h"
 #import "TyphoonAssemblyActivator.h"
-
+#import "ColorViewController.h"
+#import "TyphoonBlockComponentFactory.h"
 
 @interface ViewController ()
 @property(nonatomic, strong) UIButton *presentModalViewControllerButton;
@@ -23,21 +25,33 @@
 // After activation we'll use the same interface to return built instances.
 // Since the main use for your assembly interfaces will be emitting built components,
 // you can declare the return type as the type being built.
-- (void)presentModalViewControllerButtonAction {
-    NotActivatedAssembly *assembly = [NotActivatedAssembly assembly];
-    NSLog(@"PRE ACTIVATION");
-    NSLog(@"assembly = %@", assembly);
-    NSLog(@"assembly.col = %@", [assembly viewControllerWithColor:[UIColor redColor]]);
 
-//    [[TyphoonAssemblyActivator withAssembly:assembly] activate];
-//    // [[TyphoonAssemblyActivator withAssemblies:@[assembly]] activate]; -> this same
-//    NSLog(@"POST ACTIVATION");
-//    NSLog(@"assembly = %@", assembly);
+// Typhoon author explaining how to go from factory to assembly
+// http://stackoverflow.com/questions/27387808/how-can-i-pass-along-runtime-arguments-to-sub-components-using-typhoon
+- (void)presentModalViewControllerButtonAction {
+    
+
+    // For step #4 uncomment
+//    NotActivatedAssembly *notActivatedAssembly = [NotActivatedAssembly assembly];
+//    TyphoonComponentFactory *factory = [TyphoonBlockComponentFactory factoryWithAssembly:notActivatedAssembly];
+//    TyphoonConfigPostProcessor *postProcessor = [TyphoonConfigPostProcessor new];
+//    [postProcessor useResourceWithName:@"Config.plist"];
+//    [factory attachPostProcessor:postProcessor];
+//
+//    NotActivatedAssembly *assembly = (NotActivatedAssembly *)factory;
 //    ColorViewController *controller = [assembly viewControllerWithColor:[UIColor redColor]];
-//    NSLog(@"assembly.col = %@", controller);
 //    [self presentViewController:controller
-//                       animated:YES
+//                       animated:self.animateModalTransition
 //                     completion:nil];
+
+
+    // For step #4 comment
+    NotActivatedAssembly *notActivatedAssembly = [NotActivatedAssembly assembly];
+    [[TyphoonAssemblyActivator withAssembly:notActivatedAssembly] activate];
+    ColorViewController *controller = [notActivatedAssembly viewControllerWithColor:[UIColor redColor]];
+    [self presentViewController:controller
+                       animated:self.animateModalTransition
+                     completion:nil];
 }
 
 - (void)viewDidLoad {
@@ -63,6 +77,7 @@
 
 
 
+// Nothing interesting below
 
 
 
@@ -71,7 +86,41 @@
 
 
 
-// Dont look there :P
+
+
+
+
+
+
+
+
+
+// Trust me
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // You nosey bastard :<
+
+
+
+
+
+
+
+
+
+// Dont look there!!!
 - (void)createButton {
     self.presentModalViewControllerButton = [[UIButton alloc] initWithFrame:CGRectZero];
     [self.presentModalViewControllerButton setTitle:@"Present modal!"
