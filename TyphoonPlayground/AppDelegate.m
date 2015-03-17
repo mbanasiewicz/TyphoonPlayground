@@ -21,6 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"self.window = %@", self.window);
+    NSLog(@"self.window.rootViewController = %@", self.window.rootViewController);
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
