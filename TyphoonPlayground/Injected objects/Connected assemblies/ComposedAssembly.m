@@ -24,6 +24,7 @@
                                                   [initializer injectParameterWith:self.bObjectAssembly.bObject];
                                                   [initializer injectParameterWith:self.cObjectAssembly.cObject];
                                               }];
+                              // https://github.com/appsquickly/Typhoon/wiki/Scopes
                               // This scope means that when a TyphoonDefinition is assembled,
                               // any dependencies will be treated as shared instances during assembly.
                               // Once resolution is complete they are not retained by Typhoon.

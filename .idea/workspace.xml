@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TyphoonPlayground/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.72" vertical-offset="252" max-vertical-offset="2115">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.53900707" vertical-offset="282" max-vertical-offset="2115">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="30" />
               <folding>
                 <element signature="e#149#195#0" expanded="true" />
               </folding>
@@ -116,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComposedAssembly.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ComposedAssembly.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6453901" vertical-offset="237" max-vertical-offset="780">
-              <caret line="39" column="88" selection-start-line="39" selection-start-column="88" selection-end-line="39" selection-end-column="88" />
+            <state vertical-scroll-proportion="-10.32" vertical-offset="57" max-vertical-offset="795">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -824,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/ViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.72" vertical-offset="252" max-vertical-offset="2115">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#149#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.72" vertical-offset="57" max-vertical-offset="480">
@@ -846,9 +836,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6453901" vertical-offset="237" max-vertical-offset="780">
-          <caret line="39" column="88" selection-start-line="39" selection-start-column="88" selection-end-line="39" selection-end-column="88" />
+        <state vertical-scroll-proportion="-10.32" vertical-offset="57" max-vertical-offset="795">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53900707" vertical-offset="282" max-vertical-offset="2115">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#149#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
