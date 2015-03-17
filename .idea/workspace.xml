@@ -24,11 +24,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="BObjectAssembly.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/BObjectAssembly.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="375">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#100#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AObjectAssembly.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssembly.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="255">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#100#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComposedObject.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/ComposedObject.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.2" vertical-offset="0" max-vertical-offset="555">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TyphoonPlayground/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92907804" vertical-offset="402" max-vertical-offset="2355">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.3617021" vertical-offset="282" max-vertical-offset="2085">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="e#149#195#0" expanded="true" />
               </folding>
@@ -36,95 +70,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TyphoonAssemblyActivator.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblyActivator.h">
+      <file leaf-file-name="ComposedAssembly.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.52" vertical-offset="2" max-vertical-offset="450">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotActivatedAssembly.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Assemblies/NotActivatedAssembly.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.32" vertical-offset="62" max-vertical-offset="510">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="24" selection-end-column="101" />
+            <state vertical-scroll-proportion="-12.6" vertical-offset="15" max-vertical-offset="480">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding>
-                <element signature="e#100#132#0" expanded="true" />
+                <element signature="e#100#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/AppDelegate.m">
+      <file leaf-file-name="AObjectAssemblyStub.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyStub.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.16" vertical-offset="316" max-vertical-offset="1320">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
+            <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="375">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="35" />
               <folding>
-                <element signature="e#146#181#0" expanded="true" />
+                <element signature="e#100#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDelegate.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/AppDelegate.h">
+      <file leaf-file-name="AObjectAssemblyStub.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyStub.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.72" vertical-offset="92" max-vertical-offset="540">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+              <folding>
+                <element signature="e#100#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComposedAssembly.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.8" vertical-offset="15" max-vertical-offset="450">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding>
+                <marker date="1426621049000" expanded="true" signature="368:1121" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BObject.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/BObject.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="375">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TyphoonComponentFactory.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonComponentFactory.m">
+      <file leaf-file-name="CObject.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/CObject.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.64" vertical-offset="2199" max-vertical-offset="6420">
-              <caret line="170" column="56" selection-start-line="170" selection-start-column="56" selection-end-line="170" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TyphoonRuntimeArguments.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonRuntimeArguments.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.36" vertical-offset="151" max-vertical-offset="855">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TyphoonConfigPostProcessor.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonConfigPostProcessor.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.28" vertical-offset="342" max-vertical-offset="765">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TyphoonBlockComponentFactory.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBlockComponentFactory.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.24" vertical-offset="144" max-vertical-offset="675">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TyphoonComponentFactory.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonComponentFactory.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="37.68" vertical-offset="2187" max-vertical-offset="2610">
-              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+            <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="375">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,6 +159,28 @@
         <option value="$PROJECT_DIR$/TyphoonPlayground/ColorViewController.m" />
         <option value="$PROJECT_DIR$/TyphoonPlayground/AppDelegate.h" />
         <option value="$PROJECT_DIR$/TyphoonPlayground/Assemblies/NotActivatedAssembly.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/AObject.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/BObject.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/CObject.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/CObjectAssemblyProtocol.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/CObjectAssembly.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/BObjectAssemblyProtocol.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/BObjectAssembly.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyProtocol.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/ComposedObject.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAsembly.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/BObjectAssembly.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/CObjectAssembly.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/ComposedObject.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/AObject.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/BObject.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/CObject.m" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAsembly.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssembly.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyStub.h" />
+        <option value="$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyStub.m" />
         <option value="$PROJECT_DIR$/TyphoonPlayground/ViewController.m" />
       </list>
     </option>
@@ -227,7 +257,29 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Assemblies" />
+              <option name="myItemId" value="Injected objects" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TyphoonPlayground" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TyphoonPlayground" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Injected objects" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connected assemblies" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,7 +517,7 @@
         <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="300">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#100#133#0" expanded="true" />
+            <element signature="e#100#133#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -492,9 +544,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="315">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#100#123#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -575,7 +625,7 @@
         <state vertical-scroll-proportion="-10.16" vertical-offset="316" max-vertical-offset="1320">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
           <folding>
-            <element signature="e#146#181#0" expanded="true" />
+            <element signature="e#146#181#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -601,7 +651,7 @@
         <state vertical-scroll-proportion="-11.32" vertical-offset="62" max-vertical-offset="510">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="24" selection-end-column="101" />
           <folding>
-            <element signature="e#100#132#0" expanded="true" />
+            <element signature="e#100#132#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,10 +664,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/BObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="240">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/CObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="240">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/CObjectAssemblyProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/CObjectAssembly.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="225">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/BObjectAssemblyProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/BObjectAssembly.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="225">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/ComposedObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="375">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="375">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#100#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/CObjectAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="15" max-vertical-offset="360">
+          <caret line="16" column="86" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/AObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="180" max-vertical-offset="270">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/AObject.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="375">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/BObject.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="375">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/CObject.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="375">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/ComposedObject.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.2" vertical-offset="0" max-vertical-offset="555">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/BObjectAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="375">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#100#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssembly.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#100#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.8" vertical-offset="15" max-vertical-offset="450">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <marker date="1426621049000" expanded="true" signature="368:1121" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/ComposedAssembly.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.6" vertical-offset="15" max-vertical-offset="480">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#100#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyStub.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <element signature="e#100#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TyphoonPlayground/Injected objects/Connected assemblies/AObjectAssemblyStub.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="375">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#100#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TyphoonPlayground/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92907804" vertical-offset="402" max-vertical-offset="2355">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.3617021" vertical-offset="282" max-vertical-offset="2085">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="e#149#195#0" expanded="true" />
           </folding>

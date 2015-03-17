@@ -9,16 +9,25 @@
 /* Begin PBXBuildFile section */
 		34FAD6A91AB8A76400FC751F /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34FAD6A81AB8A76400FC751F /* Config.plist */; };
 		85926AF2031913AF890360C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE13755E305F8F5A5B8DC29F /* libPods.a */; };
+		9B24D002025EC8834F6E630F /* BObjectAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D165B285A15030A16243 /* BObjectAssembly.m */; };
 		9B24D0A1D398EFDEDA991E7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D6F2103991DB00D927DB /* Images.xcassets */; };
+		9B24D0DA2710B42B78F9472E /* ComposedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DBC4708FCF44BB5113A9 /* ComposedObject.m */; };
+		9B24D1836AE36DEED70863F8 /* AObjectAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D285CC2B04419F71E70F /* AObjectAssembly.m */; };
 		9B24D195C9D0A2CE40523A35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D58D3CACCFD385336D52 /* ViewController.m */; };
+		9B24D1D517C477E79695D915 /* AObjectAssemblyStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D98FC24273D73625B03A /* AObjectAssemblyStub.m */; };
+		9B24D2CFD9DEEB0DC1AD2BF3 /* BObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D1FE2DFD494A1E5475CE /* BObject.m */; };
 		9B24D2F0C0A8376EFCCB8F8B /* NotActivatedAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D84B0C815DBCA5016B9E /* NotActivatedAssembly.m */; };
 		9B24D301FE7E3D73F451B0FA /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D0886F5BA267571ABAA7 /* ColorViewController.m */; };
+		9B24D444D334A1D101ED9072 /* AObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DEA9B28060E837EC2E6B /* AObject.m */; };
 		9B24D44798EC52E20D34541D /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */; };
 		9B24D7A4E48E71B541C30530 /* InjectedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D1EFE958AE5239896A97 /* InjectedObject.m */; };
+		9B24D86238F829B3008A27E8 /* CObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D37CEE6767AE5CCB51E1 /* CObject.m */; };
 		9B24DAA6C99C7756CF578FCD /* TyphoonPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */; };
 		9B24DAF887F10E34C8366DA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D1B97D1E5F77A7D99453 /* LaunchScreen.xib */; };
 		9B24DC2EC53FDB4ED1839C58 /* Config.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B24DEFC8E3C09B2D252BEF9 /* Config.json */; };
+		9B24DD560A8696FC78C42A6E /* CObjectAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DEEA782CA56C5F918A54 /* CObjectAssembly.m */; };
 		9B24DE7BA0738AC3749376CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D02BA8E601B7B3142EDC /* AppDelegate.m */; };
+		9B24DF623F60B22C452B39E7 /* ComposedAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D6B29E5D29577AE8F757 /* ComposedAssembly.m */; };
 		9B24DFF40FE56979AD9ABC25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DE78B9F89EB234BC7A4D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -37,25 +46,46 @@
 		7BC0A8579EF3462C7D4BB3FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		98CCACF6209047ECE1C085D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9B24D02BA8E601B7B3142EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B24D0355EEEC409C3610DBD /* BObjectAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BObjectAssembly.h; sourceTree = "<group>"; };
+		9B24D0357A949D163B34C52B /* BObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BObject.h; sourceTree = "<group>"; };
 		9B24D0886F5BA267571ABAA7 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 		9B24D0AD20A4D1D2DCF93693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B24D158635ECBE432AF5AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9B24D165B285A15030A16243 /* BObjectAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BObjectAssembly.m; sourceTree = "<group>"; };
 		9B24D18EE8B5E92CC752C07D /* TyphoonPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B24D1EFE958AE5239896A97 /* InjectedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectedObject.m; sourceTree = "<group>"; };
+		9B24D1FE2DFD494A1E5475CE /* BObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BObject.m; sourceTree = "<group>"; };
+		9B24D274376971AB045A9A59 /* AObjectAssemblyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AObjectAssemblyProtocol.h; sourceTree = "<group>"; };
+		9B24D285CC2B04419F71E70F /* AObjectAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AObjectAssembly.m; sourceTree = "<group>"; };
+		9B24D37CEE6767AE5CCB51E1 /* CObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CObject.m; sourceTree = "<group>"; };
+		9B24D42F76A6F1846D50A1F3 /* CObjectAssemblyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CObjectAssemblyProtocol.h; sourceTree = "<group>"; };
 		9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyphoonPlaygroundTests.m; sourceTree = "<group>"; };
 		9B24D451165EB6AAB3DEB7D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B24D50A7F9AFEA6144DA45F /* AObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AObject.h; sourceTree = "<group>"; };
 		9B24D50B13350645D0193B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9B24D53A612346D00B4C60DA /* ComposedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposedObject.h; sourceTree = "<group>"; };
+		9B24D548949C844DB685AB71 /* AObjectAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AObjectAssembly.h; sourceTree = "<group>"; };
 		9B24D55D3F81939E678C73C6 /* NotActivatedAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotActivatedAssembly.h; sourceTree = "<group>"; };
 		9B24D58D3CACCFD385336D52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B24D59B7B24B11B7254339A /* TyphoonPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B24D6076F825FAC3CB3F9EF /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		9B24D6B29E5D29577AE8F757 /* ComposedAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposedAssembly.m; sourceTree = "<group>"; };
+		9B24D6D013BD22C4946B3F5E /* AObjectAssemblyStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AObjectAssemblyStub.h; sourceTree = "<group>"; };
 		9B24D6F2103991DB00D927DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B24D6FED74DBEEB8FF0EF38 /* CObjectAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CObjectAssembly.h; sourceTree = "<group>"; };
 		9B24D75A019FF41361A8C30E /* ApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		9B24D832903D2C4F47E474BF /* BObjectAssemblyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BObjectAssemblyProtocol.h; sourceTree = "<group>"; };
 		9B24D84B0C815DBCA5016B9E /* NotActivatedAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotActivatedAssembly.m; sourceTree = "<group>"; };
+		9B24D98FC24273D73625B03A /* AObjectAssemblyStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AObjectAssemblyStub.m; sourceTree = "<group>"; };
+		9B24D9C2487F813E71EE2949 /* ComposedAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposedAssembly.h; sourceTree = "<group>"; };
 		9B24D9D4511556949D7AAB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B24DBC4708FCF44BB5113A9 /* ComposedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposedObject.m; sourceTree = "<group>"; };
 		9B24DC0BCD495333A252EE4A /* InjectedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectedObject.h; sourceTree = "<group>"; };
 		9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
 		9B24DE78B9F89EB234BC7A4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B24DE9E736B59DD0A729730 /* CObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CObject.h; sourceTree = "<group>"; };
+		9B24DEA9B28060E837EC2E6B /* AObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AObject.m; sourceTree = "<group>"; };
+		9B24DEEA782CA56C5F918A54 /* CObjectAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CObjectAssembly.m; sourceTree = "<group>"; };
 		9B24DEFC8E3C09B2D252BEF9 /* Config.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = Config.json; sourceTree = "<group>"; };
 		BE13755E305F8F5A5B8DC29F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,8 +162,25 @@
 				9B24D0886F5BA267571ABAA7 /* ColorViewController.m */,
 				9B24D1EFE958AE5239896A97 /* InjectedObject.m */,
 				9B24DC0BCD495333A252EE4A /* InjectedObject.h */,
+				9B24D440ABB7A5924EE28DC2 /* Injected objects */,
 			);
 			path = TyphoonPlayground;
+			sourceTree = "<group>";
+		};
+		9B24D440ABB7A5924EE28DC2 /* Injected objects */ = {
+			isa = PBXGroup;
+			children = (
+				9B24DBCC49BACF61C94F339D /* Connected assemblies */,
+				9B24DEA9B28060E837EC2E6B /* AObject.m */,
+				9B24D50A7F9AFEA6144DA45F /* AObject.h */,
+				9B24D1FE2DFD494A1E5475CE /* BObject.m */,
+				9B24D0357A949D163B34C52B /* BObject.h */,
+				9B24D37CEE6767AE5CCB51E1 /* CObject.m */,
+				9B24DE9E736B59DD0A729730 /* CObject.h */,
+				9B24DBC4708FCF44BB5113A9 /* ComposedObject.m */,
+				9B24D53A612346D00B4C60DA /* ComposedObject.h */,
+			);
+			path = "Injected objects";
 			sourceTree = "<group>";
 		};
 		9B24D82BF483BBA09FFDC50D /* Supporting Files */ = {
@@ -154,6 +201,26 @@
 				E023B4273BE37AD960D9EED3 /* Pods */,
 				77AC3B97B42599380519406A /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		9B24DBCC49BACF61C94F339D /* Connected assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				9B24D285CC2B04419F71E70F /* AObjectAssembly.m */,
+				9B24D548949C844DB685AB71 /* AObjectAssembly.h */,
+				9B24D165B285A15030A16243 /* BObjectAssembly.m */,
+				9B24D0355EEEC409C3610DBD /* BObjectAssembly.h */,
+				9B24DEEA782CA56C5F918A54 /* CObjectAssembly.m */,
+				9B24D6FED74DBEEB8FF0EF38 /* CObjectAssembly.h */,
+				9B24D274376971AB045A9A59 /* AObjectAssemblyProtocol.h */,
+				9B24D832903D2C4F47E474BF /* BObjectAssemblyProtocol.h */,
+				9B24D42F76A6F1846D50A1F3 /* CObjectAssemblyProtocol.h */,
+				9B24D6B29E5D29577AE8F757 /* ComposedAssembly.m */,
+				9B24D9C2487F813E71EE2949 /* ComposedAssembly.h */,
+				9B24D98FC24273D73625B03A /* AObjectAssemblyStub.m */,
+				9B24D6D013BD22C4946B3F5E /* AObjectAssemblyStub.h */,
+			);
+			path = "Connected assemblies";
 			sourceTree = "<group>";
 		};
 		9B24DEE53FD1C7BC87EE7310 /* Products */ = {
@@ -306,6 +373,15 @@
 				9B24D2F0C0A8376EFCCB8F8B /* NotActivatedAssembly.m in Sources */,
 				9B24D301FE7E3D73F451B0FA /* ColorViewController.m in Sources */,
 				9B24D7A4E48E71B541C30530 /* InjectedObject.m in Sources */,
+				9B24D1836AE36DEED70863F8 /* AObjectAssembly.m in Sources */,
+				9B24D002025EC8834F6E630F /* BObjectAssembly.m in Sources */,
+				9B24DD560A8696FC78C42A6E /* CObjectAssembly.m in Sources */,
+				9B24D444D334A1D101ED9072 /* AObject.m in Sources */,
+				9B24D2CFD9DEEB0DC1AD2BF3 /* BObject.m in Sources */,
+				9B24D86238F829B3008A27E8 /* CObject.m in Sources */,
+				9B24DF623F60B22C452B39E7 /* ComposedAssembly.m in Sources */,
+				9B24D0DA2710B42B78F9472E /* ComposedObject.m in Sources */,
+				9B24D1D517C477E79695D915 /* AObjectAssemblyStub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
