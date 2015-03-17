@@ -10,5 +10,6 @@
 
 
 @interface ApplicationAssembly : TyphoonAssembly
+
 - (AppDelegate *)appDelegate;
 @end

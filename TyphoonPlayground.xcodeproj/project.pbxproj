@@ -10,7 +10,10 @@
 		85926AF2031913AF890360C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE13755E305F8F5A5B8DC29F /* libPods.a */; };
 		9B24D0A1D398EFDEDA991E7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D6F2103991DB00D927DB /* Images.xcassets */; };
 		9B24D195C9D0A2CE40523A35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D58D3CACCFD385336D52 /* ViewController.m */; };
+		9B24D2F0C0A8376EFCCB8F8B /* NotActivatedAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D84B0C815DBCA5016B9E /* NotActivatedAssembly.m */; };
+		9B24D301FE7E3D73F451B0FA /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D0886F5BA267571ABAA7 /* ColorViewController.m */; };
 		9B24D44798EC52E20D34541D /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */; };
+		9B24D7A4E48E71B541C30530 /* InjectedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D1EFE958AE5239896A97 /* InjectedObject.m */; };
 		9B24DAA6C99C7756CF578FCD /* TyphoonPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */; };
 		9B24DAF887F10E34C8366DA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D1B97D1E5F77A7D99453 /* LaunchScreen.xib */; };
 		9B24DE7BA0738AC3749376CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D02BA8E601B7B3142EDC /* AppDelegate.m */; };
@@ -31,17 +34,23 @@
 		7BC0A8579EF3462C7D4BB3FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		98CCACF6209047ECE1C085D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9B24D02BA8E601B7B3142EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B24D0886F5BA267571ABAA7 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 		9B24D0AD20A4D1D2DCF93693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B24D158635ECBE432AF5AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		9B24D18EE8B5E92CC752C07D /* TyphoonPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B24D1EFE958AE5239896A97 /* InjectedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectedObject.m; sourceTree = "<group>"; };
 		9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyphoonPlaygroundTests.m; sourceTree = "<group>"; };
 		9B24D451165EB6AAB3DEB7D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9B24D50B13350645D0193B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9B24D55D3F81939E678C73C6 /* NotActivatedAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotActivatedAssembly.h; sourceTree = "<group>"; };
 		9B24D58D3CACCFD385336D52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B24D59B7B24B11B7254339A /* TyphoonPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B24D6076F825FAC3CB3F9EF /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
 		9B24D6F2103991DB00D927DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B24D75A019FF41361A8C30E /* ApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		9B24D84B0C815DBCA5016B9E /* NotActivatedAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotActivatedAssembly.m; sourceTree = "<group>"; };
 		9B24D9D4511556949D7AAB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B24DC0BCD495333A252EE4A /* InjectedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InjectedObject.h; sourceTree = "<group>"; };
 		9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
 		9B24DE78B9F89EB234BC7A4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE13755E305F8F5A5B8DC29F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +88,8 @@
 			children = (
 				9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */,
 				9B24D75A019FF41361A8C30E /* ApplicationAssembly.h */,
+				9B24D84B0C815DBCA5016B9E /* NotActivatedAssembly.m */,
+				9B24D55D3F81939E678C73C6 /* NotActivatedAssembly.h */,
 			);
 			path = Assemblies;
 			sourceTree = "<group>";
@@ -111,6 +122,10 @@
 				9B24D451165EB6AAB3DEB7D5 /* ViewController.h */,
 				9B24D58D3CACCFD385336D52 /* ViewController.m */,
 				9B24D0102536D3AAF4D7940C /* Assemblies */,
+				9B24D6076F825FAC3CB3F9EF /* ColorViewController.h */,
+				9B24D0886F5BA267571ABAA7 /* ColorViewController.m */,
+				9B24D1EFE958AE5239896A97 /* InjectedObject.m */,
+				9B24DC0BCD495333A252EE4A /* InjectedObject.h */,
 			);
 			path = TyphoonPlayground;
 			sourceTree = "<group>";
@@ -280,6 +295,9 @@
 				9B24DE7BA0738AC3749376CE /* AppDelegate.m in Sources */,
 				9B24D195C9D0A2CE40523A35 /* ViewController.m in Sources */,
 				9B24D44798EC52E20D34541D /* ApplicationAssembly.m in Sources */,
+				9B24D2F0C0A8376EFCCB8F8B /* NotActivatedAssembly.m in Sources */,
+				9B24D301FE7E3D73F451B0FA /* ColorViewController.m in Sources */,
+				9B24D7A4E48E71B541C30530 /* InjectedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
