@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85926AF2031913AF890360C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE13755E305F8F5A5B8DC29F /* libPods.a */; };
+		9B24D05B05D876D4851E8C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D68FB2D929519034020F /* Main.storyboard */; };
+		9B24D0A1D398EFDEDA991E7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D6F2103991DB00D927DB /* Images.xcassets */; };
+		9B24D195C9D0A2CE40523A35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D58D3CACCFD385336D52 /* ViewController.m */; };
+		9B24D44798EC52E20D34541D /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */; };
+		9B24DAA6C99C7756CF578FCD /* TyphoonPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */; };
+		9B24DAF887F10E34C8366DA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B24D1B97D1E5F77A7D99453 /* LaunchScreen.xib */; };
+		9B24DE7BA0738AC3749376CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24D02BA8E601B7B3142EDC /* AppDelegate.m */; };
+		9B24DFF40FE56979AD9ABC25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DE78B9F89EB234BC7A4D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B24D313B006F5E19B8E4C13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B24D760401DDD316917C8A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B24D0E60570E43690C698CA;
+			remoteInfo = TyphoonPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BC0A8579EF3462C7D4BB3FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		98CCACF6209047ECE1C085D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9B24D02BA8E601B7B3142EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B24D0AD20A4D1D2DCF93693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B24D158635ECBE432AF5AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9B24D18EE8B5E92CC752C07D /* TyphoonPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyphoonPlaygroundTests.m; sourceTree = "<group>"; };
+		9B24D451165EB6AAB3DEB7D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B24D50B13350645D0193B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9B24D58D3CACCFD385336D52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B24D59B7B24B11B7254339A /* TyphoonPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B24D61F368F01D57E7C4E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B24D6F2103991DB00D927DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B24D75A019FF41361A8C30E /* ApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		9B24D9D4511556949D7AAB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
+		9B24DE78B9F89EB234BC7A4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE13755E305F8F5A5B8DC29F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B24DA2964D59C89DD5BF172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B24DE29BF0CF50AE3BDA1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85926AF2031913AF890360C1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77AC3B97B42599380519406A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE13755E305F8F5A5B8DC29F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B24D0102536D3AAF4D7940C /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				9B24DCAF3F4E26BF583989DC /* ApplicationAssembly.m */,
+				9B24D75A019FF41361A8C30E /* ApplicationAssembly.h */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		9B24D08A8CA74AC847BECBC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B24D50B13350645D0193B32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B24D1B96095B0B253BB2112 /* TyphoonPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B24D08A8CA74AC847BECBC7 /* Supporting Files */,
+				9B24D43219E7FC78E2D79971 /* TyphoonPlaygroundTests.m */,
+			);
+			path = TyphoonPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		9B24D3A4730FFFDE46D97E0C /* TyphoonPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				9B24D82BF483BBA09FFDC50D /* Supporting Files */,
+				9B24D6F2103991DB00D927DB /* Images.xcassets */,
+				9B24D1B97D1E5F77A7D99453 /* LaunchScreen.xib */,
+				9B24D0AD20A4D1D2DCF93693 /* AppDelegate.h */,
+				9B24D02BA8E601B7B3142EDC /* AppDelegate.m */,
+				9B24D68FB2D929519034020F /* Main.storyboard */,
+				9B24D451165EB6AAB3DEB7D5 /* ViewController.h */,
+				9B24D58D3CACCFD385336D52 /* ViewController.m */,
+				9B24D0102536D3AAF4D7940C /* Assemblies */,
+			);
+			path = TyphoonPlayground;
+			sourceTree = "<group>";
+		};
+		9B24D82BF483BBA09FFDC50D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B24D158635ECBE432AF5AF8 /* Info.plist */,
+				9B24DE78B9F89EB234BC7A4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B24D84B80928D5FB5AF62FE = {
+			isa = PBXGroup;
+			children = (
+				9B24DEE53FD1C7BC87EE7310 /* Products */,
+				9B24D3A4730FFFDE46D97E0C /* TyphoonPlayground */,
+				9B24D1B96095B0B253BB2112 /* TyphoonPlaygroundTests */,
+				E023B4273BE37AD960D9EED3 /* Pods */,
+				77AC3B97B42599380519406A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B24DEE53FD1C7BC87EE7310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B24D18EE8B5E92CC752C07D /* TyphoonPlayground.app */,
+				9B24D59B7B24B11B7254339A /* TyphoonPlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E023B4273BE37AD960D9EED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98CCACF6209047ECE1C085D6 /* Pods.debug.xcconfig */,
+				7BC0A8579EF3462C7D4BB3FE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B24D0E60570E43690C698CA /* TyphoonPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B24DF325AA60AD0EB520D65 /* Build configuration list for PBXNativeTarget "TyphoonPlayground" */;
+			buildPhases = (
+				00E57DAE3ADFBA43BC2B4E38 /* Check Pods Manifest.lock */,
+				9B24D722E68F686857A0AD72 /* Sources */,
+				9B24DE29BF0CF50AE3BDA1ED /* Frameworks */,
+				9B24DF8CC7CBF8489FD07E1F /* Resources */,
+				0CBD0235CD89B02A9B93FB18 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyphoonPlayground;
+			productName = TyphoonPlayground;
+			productReference = 9B24D18EE8B5E92CC752C07D /* TyphoonPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B24D8A19ADE74387B295A53 /* TyphoonPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B24D3FDA9C5354B5CB9855E /* Build configuration list for PBXNativeTarget "TyphoonPlaygroundTests" */;
+			buildPhases = (
+				9B24DB920031BEE273C1EB12 /* Sources */,
+				9B24DA2964D59C89DD5BF172 /* Frameworks */,
+				9B24DBD53624B82B0B683BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B24D78B151FD3C2261302E9 /* PBXTargetDependency */,
+			);
+			name = TyphoonPlaygroundTests;
+			productName = TyphoonPlaygroundTests;
+			productReference = 9B24D59B7B24B11B7254339A /* TyphoonPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B24D760401DDD316917C8A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MB;
+			};
+			buildConfigurationList = 9B24DAB5D4A3B7A14C5DEBAC /* Build configuration list for PBXProject "TyphoonPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B24D84B80928D5FB5AF62FE;
+			productRefGroup = 9B24DEE53FD1C7BC87EE7310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B24D0E60570E43690C698CA /* TyphoonPlayground */,
+				9B24D8A19ADE74387B295A53 /* TyphoonPlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B24DBD53624B82B0B683BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B24DF8CC7CBF8489FD07E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B24D0A1D398EFDEDA991E7A /* Images.xcassets in Resources */,
+				9B24DAF887F10E34C8366DA1 /* LaunchScreen.xib in Resources */,
+				9B24D05B05D876D4851E8C50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E57DAE3ADFBA43BC2B4E38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0CBD0235CD89B02A9B93FB18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B24D722E68F686857A0AD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B24DFF40FE56979AD9ABC25 /* main.m in Sources */,
+				9B24DE7BA0738AC3749376CE /* AppDelegate.m in Sources */,
+				9B24D195C9D0A2CE40523A35 /* ViewController.m in Sources */,
+				9B24D44798EC52E20D34541D /* ApplicationAssembly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B24DB920031BEE273C1EB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B24DAA6C99C7756CF578FCD /* TyphoonPlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B24D78B151FD3C2261302E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B24D0E60570E43690C698CA /* TyphoonPlayground */;
+			targetProxy = 9B24D313B006F5E19B8E4C13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B24D1B97D1E5F77A7D99453 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B24D9D4511556949D7AAB00 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9B24D68FB2D929519034020F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B24D61F368F01D57E7C4E36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B24D395560267D8ACA6CF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TyphoonPlayground.app/TyphoonPlayground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TyphoonPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		9B24D4229C5F0914B6B2C382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC0A8579EF3462C7D4BB3FE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TyphoonPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		9B24D5FD4B070C26FA400328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B24DA103483B145AA717D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CCACF6209047ECE1C085D6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TyphoonPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		9B24DD9CFC0721301BE12052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TyphoonPlayground.app/TyphoonPlayground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TyphoonPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9B24DDDE95287F09D014A237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B24D3FDA9C5354B5CB9855E /* Build configuration list for PBXNativeTarget "TyphoonPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B24DD9CFC0721301BE12052 /* Debug */,
+				9B24D395560267D8ACA6CF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B24DAB5D4A3B7A14C5DEBAC /* Build configuration list for PBXProject "TyphoonPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B24DDDE95287F09D014A237 /* Debug */,
+				9B24D5FD4B070C26FA400328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B24DF325AA60AD0EB520D65 /* Build configuration list for PBXNativeTarget "TyphoonPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B24DA103483B145AA717D78 /* Debug */,
+				9B24D4229C5F0914B6B2C382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B24D760401DDD316917C8A8 /* Project object */;
+}
