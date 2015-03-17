@@ -21,6 +21,7 @@
 
 @interface ViewController ()
 @property(nonatomic, strong) UIButton *presentModalViewControllerButton;
+@property(nonatomic, weak) ComposedObject *composedObject;
 @end
 
 @implementation ViewController
@@ -32,8 +33,9 @@
     CObjectAssembly *cObjectAssembly = [CObjectAssembly assembly];
     ComposedAssembly *assembly = [ComposedAssembly assembly];
     [[TyphoonAssemblyActivator withAssemblies:@[aObjectAssembly, bObjectAssembly, cObjectAssembly, assembly]] activate];
-    ComposedObject *composedObject = [assembly composedObject];
-    NSLog(@"composedObject = %@", composedObject);
+    self.composedObject = [assembly composedObject];
+    NSLog(@"composedObject 1 = %@", self.composedObject);
+    NSLog(@"composedObject 2 = %@", [assembly composedObject]);
 }
 
 - (void)viewDidLoad {

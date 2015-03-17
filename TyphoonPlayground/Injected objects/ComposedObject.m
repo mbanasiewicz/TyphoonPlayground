@@ -7,6 +7,7 @@
 #import "AObject.h"
 #import "BObject.h"
 #import "CObject.h"
+#import "InjectedObject.h"
 
 
 @implementation ComposedObject {
@@ -29,7 +30,13 @@
     [description appendFormat:@", self.bObject=%@", self.bObject];
     [description appendFormat:@", self.cObject=%@", self.cObject];
     [description appendString:@">"];
+    [description appendString:[super description]];
     return description;
 }
 
+
+- (void)dealloc {
+    NSLog(@"%s", sel_getName(_cmd));
+    NSLog(@"dealloc = %@", NSStringFromClass(self.class));
+}
 @end
